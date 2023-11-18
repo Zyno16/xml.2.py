@@ -7,11 +7,11 @@ input = '''
            <id>001</id>
            <name>Chuck</name>
        </user>
-      <user x="7">
+       <user x="7">
           <id>009</id>
           <name>Brent</name>
-      </users>
-   </users>
+       </user>
+    </users>
 </stuff>'''
 
 stuff= ET.fromstring(input)
